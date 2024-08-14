@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.signature-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.date-signature {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature-box {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.signature-group p {
+    margin: 0;
+    text-align: center;
+}
